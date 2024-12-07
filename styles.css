@@ -45,34 +45,46 @@ main {
   text-align: center;
 }
 
-h1 {
+/* Sección Acerca de */
+
+.about-section {
+  background-color: #fff;
+  padding: 50px 20px;
+  margin: 50px auto;
+  max-width: 800px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.about-section h2 {
   font-size: 2.5rem;
+  color: #007bff;
   margin-bottom: 20px;
-  color: #333;
 }
 
-p {
-  font-size: 1.2rem;
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-content img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-content p {
+  font-size: 1.1rem;
   color: #555;
+  line-height: 1.8;
+  text-align: justify;
 }
 
-button {
-  background-color: #28a745;
-  color: white;
-  padding: 12px 25px;
-  border: none;
-  cursor: pointer;
-  font-size: 18px;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #218838;
-  transform: translateY(-2px);
-}
-
-/* Estilos para el formulario de contacto */
+/* Contacto */
 
 .contact-form {
   margin: 50px auto;
